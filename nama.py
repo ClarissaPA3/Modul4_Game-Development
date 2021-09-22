@@ -23,6 +23,8 @@ BLUE = (0, 0, 255)
 PINK = (210, 43, 140, 1.0)
 YELLOW = (255, 253, 0, 1.0)
 GGRN = (25, 145, 112, 1.0)
+COKLAT = (210, 105, 30, 1)
+UNGU = (138, 43, 226, 1)
 
 
 #membuat sebuah objek. Di setiap metode class harus selalu ada self sebagai 
@@ -67,7 +69,7 @@ class Player:
 #Height dan Width tadi yaitu 400 dan 400 di bagi menjadi 2 
 player = Player(WIDTH/2, HEIGHT/2)
 #untuk merubah Warna Huruf
-font_color = (52, 20, 100)
+font_color = (255, 255, 255)
 #Untuk mendefinisikan Font apa dan besar fontnya
 font_obj = pygame.font.Font("BerthaMelanie.TTF",23)
 #Tulisan akan muncul di layar
